@@ -1,0 +1,52 @@
+{
+  "name": "parcel-micro-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/pug/*.pug --no-cache",
+    "build": "parcel build src/pug/*.pug --public-url=./",
+    "github": "parcel build src/pug/*.pug --public-url=./ --out-dir=docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gozeon/parcel-micro-frontend.git"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "keywords": [
+    "template",
+    "husky",
+    "prettier"
+  ],
+  "author": "goze",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gozeon/parcel-micro-frontend/issues"
+  },
+  "homepage": "https://github.com/gozeon/parcel-micro-frontend#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "vue": "^2.6.11",
+    "vue-hot-reload-api": "^2.3.4"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.1.1",
+    "glob": "^7.1.6",
+    "husky": "^4.2.3",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-svelte": "^4.0.6",
+    "prettier": "^2.0.1",
+    "pretty-quick": "^2.0.1",
+    "pug": "^2.0.4",
+    "sass": "^1.26.3",
+    "svelte": "^3.20.1",
+    "typescript": "^3.8.3",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
