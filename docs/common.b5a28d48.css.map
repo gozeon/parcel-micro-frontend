@@ -1,0 +1,1 @@
+{"version":3,"sources":["../sass/common.scss"],"names":[],"mappings":"AAAA,EACE,qBAEF,SACE,yBAAA,CACA,0BAAA,CACA","file":"common.b5a28d48.css","sourceRoot":"../src/pug","sourcesContent":["a {\n  text-decoration: none;\n}\na.active {\n  text-decoration: underline;\n  text-decoration-style: wavy;\n  text-decoration-color: brown;\n}\n"]}

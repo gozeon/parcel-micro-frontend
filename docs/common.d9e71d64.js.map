@@ -1,0 +1,1 @@
+{"version":3,"sources":["../javascript/common.js"],"names":["console","log","document","title"],"mappings":";AAAAA,QAAQC,IAAIC,SAASC","file":"common.d9e71d64.js","sourceRoot":"../src/pug","sourcesContent":["console.log(document.title)\n"]}
